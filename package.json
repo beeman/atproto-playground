@@ -2,9 +2,19 @@
   "name": "atproto-playground",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:web": "nx serve web"
+  },
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@mantine/core": "^6.0.9",
+    "@mantine/dates": "^6.0.9",
+    "@mantine/form": "^6.0.9",
+    "@mantine/hooks": "^6.0.9",
+    "@mantine/modals": "^6.0.9",
+    "@mantine/notifications": "^6.0.9",
+    "@tabler/icons-react": "^2.17.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.8.1",

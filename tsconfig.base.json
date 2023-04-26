@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@atproto-playground/web/shell/feature": ["libs/web/shell/feature/src/index.ts"],
+      "@atproto-playground/web/ui/core": ["libs/web/ui/core/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
